@@ -2230,7 +2230,6 @@ function flamelink(conf = {}) {
   };
 }
 
-flamelink.VERSION = __PACKAGE_VERSION__;
+flamelink.VERSION = '0.19.12';
 
-// Need to use `module.exports` instead of `export default`, otherwise library is available as { default: flamelink }
-module.exports = flamelink;
+export default flamelink;
