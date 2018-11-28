@@ -26,7 +26,7 @@
     "url": "https://github.com/flamelink/flamelink/issues"
   },
   "engines": {
-    "node": ">=6 <10",
+    "node": ">=6 <11",
     "npm": ">=3"
   },
   "keywords": [
@@ -47,7 +47,7 @@
   "dependencies": {
     "browser-image-resizer": "^1.1.4",
     "compose-then": "^1.0.1",
-    "firebase": "^4.12.1",
+    "firebase": "^5.5.9",
     "lodash": "^4.17.5",
     "regenerator-runtime": "^0.11.1",
     "validate.js": "^0.12.0"
