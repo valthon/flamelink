@@ -1,5 +1,7 @@
 import 'regenerator-runtime/runtime';
-import * as firebase from 'firebase';
+import * as firebase from '@firebase/app';
+import * as firebasedb from '@firebase/database';
+import * as firebasestore from '@firebase/storage';
 import validate from 'validate.js';
 import compose from 'compose-then';
 import values from 'lodash/values';
